@@ -156,6 +156,129 @@
 		(layer "F.SilkS")
 		(uuid "ae0960ec-1489-4761-b9fd-95a6b1de0fd1")
 	)
+	(fp_line
+		(start -5.5 -13.599999)
+		(end -5.5 -10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f8d5bff-e797-4185-8359-474bc6a7012b")
+	)
+	(fp_line
+		(start -5.5 -10.5)
+		(end -5 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d784bdc6-30b8-4507-b6d3-65f509d4baf8")
+	)
+	(fp_line
+		(start -5.5 -9)
+		(end -5.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "621d3a53-7867-47bb-8354-c57d6631c33b")
+	)
+	(fp_line
+		(start -5.5 -7.5)
+		(end -4.5 -6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "039ea2e6-3982-490d-a530-fdbd0759f4f4")
+	)
+	(fp_line
+		(start -5 -14.1)
+		(end 5 -14.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b4858e42-9098-4d5a-8a2a-64999cc70b03")
+	)
+	(fp_line
+		(start -5 -10)
+		(end -5 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "32f08c79-3317-4dd6-87d6-8dea627bca61")
+	)
+	(fp_line
+		(start -5 -9)
+		(end -5.5 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "05016f15-8817-4546-b50f-aaa868f08eaa")
+	)
+	(fp_line
+		(start -4.5 -6.5)
+		(end -4.5 -4.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "210e926b-34fa-4f7d-8159-c26ec55616eb")
+	)
+	(fp_line
+		(start 5.5 -4.9)
+		(end 5.5 -13.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3c06cf07-9554-46f1-933e-28ea59c88f79")
+	)
+	(fp_arc
+		(start -5.5 -13.6)
+		(mid -5.353553 -13.953553)
+		(end -5 -14.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "274a522e-9a21-4dd5-83e3-4aa1cbb5450c")
+	)
+	(fp_arc
+		(start 5 -14.1)
+		(mid 5.353553 -13.953553)
+		(end 5.5 -13.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a9615eb7-dcf6-4cd1-87d1-b2c968f8d7f3")
+	)
+	(fp_curve
+		(pts
+			(xy 5.5 -13) (xy 0 -12) (xy 0.5 -11.9) (xy -5.5 -13)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "dad751ba-242e-40e4-a67b-f076108b6168")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -248,7 +371,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "0bb9ca2f-88c2-46ae-b25e-60cd80453c1c")
 	)
-	(pad "MP" smd roundrect
+	(pad "11" smd roundrect
 		(at -5.28 -1.96)
 		(size 1.8 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -256,7 +379,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "fea3eda8-e67f-40ec-8c2c-f2f60b7714c5")
 	)
-	(pad "MP" smd custom
+	(pad "11" smd custom
 		(at 4.95 -2.7)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
